@@ -1,0 +1,14 @@
+body {
+    background: url(/images/pattern-background-desktop.svg) repeat-x;
+    position: absolute;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.wave-container {
+    height: 5%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #e6f2ff;
+}
