@@ -22,6 +22,17 @@ p {
     max-width: 24rem;
 }
 
+.link-pricing {
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 4rem;
+}
+
+.price-box {
+    background-color: hsl(225, 100%, 98%);
+}
+
 .wave-container {
     height: 5%;
     width: 100%;
