@@ -4,6 +4,14 @@ body {
     background-color: hsl(225, 100%, 94%);
 }
 
+.card {
+    max-width: 24rem;
+}
+
+.attribution {
+    text-align: center;
+}
+
 .wave-container {
     height: 5%;
     width: 100%;

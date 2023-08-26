@@ -1,19 +1,28 @@
 <%- include("partials/header.ejs") %>
 
-<body>
+<body class="container-fluid">
 
-    Order Summary
+    <div id="main" role="main" class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card rounded-4">
+                    <img class="card-img-top rounded-top-4" src="/images/illustration-hero.svg" alt="cartoon girl with headphones on">
+                    <div class="card-body">
+                        <h3 class="card-title text-center">Order Summary</h3>
+                        <p class="card-text text-center">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
 
-    You can now listen to millions of songs, audiobooks, and podcasts on any
-    device anywhere you like!
+                        <div>
+                            <p><img src="/images/icon-music.svg" alt="music icon"> Annual Plan $59.99/year Change</p>
+                        </div>
 
-    Annual Plan
-    $59.99/year
+                        <button class="btn btn-primary">Proceed to payment</button>
 
-    Change
-
-    Proceed to Payment
-    Cancel Order
+                        <p>Cancer Order</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <%- include("partials/footer.ejs") %>
 
