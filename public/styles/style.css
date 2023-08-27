@@ -1,3 +1,27 @@
+/* media */
+@media only screen and (max-width: 375px) {
+    .annual-plan {
+        color: #2D3447 !important;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .card {
+        max-width: 20rem !important;
+    }
+
+    .link-pricing {
+        font-size: 12px !important;
+        padding-left: 1.5rem !important;
+    }
+}
+
+@media only screen and (min-width: 376px) {
+    .annual-plan {
+        font-weight: 900;
+    }
+}
+
 /* tags */
 
 body {
