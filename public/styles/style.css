@@ -29,6 +29,16 @@ p {
 }
 
 .card {
+    border: none;
+}
+
+.cancel-text {
+    color: #7f8296 !important;
+    font-size: small;
+    font-weight: 700;
+}
+
+.card {
     max-width: 24rem;
 }
 
