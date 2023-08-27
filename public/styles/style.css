@@ -1,5 +1,9 @@
 /* tags */
 
+a {
+    color: #382AE1;
+}
+
 body {
     background: url(/images/pattern-background-desktop.svg) repeat-x;
     position: absolute;
@@ -17,6 +21,12 @@ p {
 }
 
 /* classes */
+
+.btn {
+    background-color: #382AE1;
+    color: white;
+    font-weight: 500;
+}
 
 .card {
     max-width: 24rem;
