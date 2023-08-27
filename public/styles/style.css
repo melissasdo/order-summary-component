@@ -1,9 +1,5 @@
 /* tags */
 
-a {
-    color: #382AE1;
-}
-
 body {
     background: url(/images/pattern-background-desktop.svg) repeat-x;
     position: absolute;
@@ -28,18 +24,24 @@ p {
     font-weight: 500;
 }
 
+.btn:hover {
+    background-color: #766CF1;
+    color: white;
+}
+
 .card {
     border: none;
+    max-width: 24rem;
 }
 
 .cancel-text {
     color: #7f8296 !important;
-    font-size: small;
+    font-size: 14px;
     font-weight: 700;
 }
 
-.card {
-    max-width: 24rem;
+.cancel-text:hover {
+    color: #2D3447 !important;
 }
 
 .link-pricing {
@@ -47,6 +49,14 @@ p {
     font-size: 14px;
     font-weight: 700;
     padding-left: 4rem;
+}
+
+.link-pricing a {
+    color: #382AE1;
+}
+
+.link-pricing a:hover {
+    color: #766CF1;
 }
 
 .price-box {
